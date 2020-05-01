@@ -147,19 +147,21 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="passwordTextField" translatesAutoresizingMaskIntoConstraints="NO" id="raQ-0h-T0c">
                                 <rect key="frame" x="47" y="283" width="311" height="105"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7cd-Gx-wn3" userLabel="usernameText">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="test@test.com" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7cd-Gx-wn3" userLabel="usernameText">
                                 <rect key="frame" x="47" y="200" width="311" height="23"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" systemColor="tertiarySystemBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tnP-Yr-CTr" userLabel="passwordText">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="testtest" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tnP-Yr-CTr" userLabel="passwordText">
                                 <rect key="frame" x="47" y="320" width="311" height="34"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" systemColor="tertiarySystemBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ooP-up-XMX">
                                 <rect key="frame" x="20" y="45" width="37" height="25"/>
@@ -231,20 +233,58 @@
                                 <rect key="frame" x="186" y="80" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zEk-pN-hIZ">
-                                <rect key="frame" x="40" y="144" width="331" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zEk-pN-hIZ">
+                                <rect key="frame" x="40" y="144" width="331" height="269"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GxP-7u-BHy">
+                                <rect key="frame" x="154" y="493" width="103" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" backgroundImage="play.rectangle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="playButtonPressed:" destination="wYY-oQ-KYn" eventType="touchUpInside" id="Ob6-xT-fdo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1xY-IJ-gqa">
+                                <rect key="frame" x="20" y="45" width="37" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" backgroundImage="arrowshape.turn.up.left" catalog="system"/>
+                                <connections>
+                                    <segue destination="tNw-a7-44j" kind="show" id="D8Y-BX-94S"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.64999997615814209" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fjT-uA-9c9" userLabel="loginWithFacebook">
+                                <rect key="frame" x="69" y="626" width="277" height="42"/>
+                                <accessibility key="accessibilityConfiguration" identifier="loginWithFacebook"/>
+                                <state key="normal" image="continueButton"/>
+                                <connections>
+                                    <action selector="loginButtonPressed:" destination="tNw-a7-44j" eventType="touchUpInside" id="lRP-Nv-TZs"/>
+                                    <segue destination="7HJ-gA-cBz" kind="show" id="aRq-W3-TfC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="DJu-Uv-aur" firstAttribute="bottom" secondItem="fjT-uA-9c9" secondAttribute="bottom" constant="194" id="I17-jb-EfB"/>
+                            <constraint firstItem="fjT-uA-9c9" firstAttribute="leading" secondItem="DJu-Uv-aur" secondAttribute="leading" constant="69" id="L9G-CO-FjR"/>
+                            <constraint firstItem="fjT-uA-9c9" firstAttribute="top" secondItem="SK4-o9-6un" secondAttribute="topMargin" constant="582" id="jtp-rU-BQh"/>
+                            <constraint firstItem="DJu-Uv-aur" firstAttribute="trailing" secondItem="fjT-uA-9c9" secondAttribute="trailing" constant="68" id="lsl-pr-cqy"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="DJu-Uv-aur"/>
                     </view>
                     <navigationItem key="navigationItem" id="8JS-aP-gAH"/>
+                    <connections>
+                        <outlet property="playButton" destination="GxP-7u-BHy" id="Oog-db-oy8"/>
+                        <outlet property="textToBeSpeaked" destination="zEk-pN-hIZ" id="z6g-X6-uEp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tYU-FS-eGh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -253,7 +293,7 @@
         <!--Event View Controller-->
         <scene sceneID="Zrf-PU-r0b">
             <objects>
-                <viewController id="7HJ-gA-cBz" userLabel="Event View Controller" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="7HJ-gA-cBz" userLabel="Event View Controller" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aUd-sg-dGq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -266,6 +306,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="9bL-DF-0Vq"/>
                     </view>
+                    <navigationItem key="navigationItem" id="KxB-Mc-fDG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RGb-yY-ObS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -366,17 +407,20 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="8zV-bT-0XD"/>
+        <segue reference="D8Y-BX-94S"/>
         <segue reference="paV-dz-q9M"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrowshape.turn.up.left" catalog="system" width="128" height="106"/>
         <image name="background" width="382" height="681"/>
         <image name="backgroundDark" width="326" height="585"/>
+        <image name="continueButton" width="600" height="90"/>
         <image name="firstButton" width="600" height="90"/>
         <image name="loginButton" width="600" height="90"/>
         <image name="loginWithFacebook" width="600" height="90"/>
         <image name="mailTextField" width="632" height="105"/>
         <image name="passwordTextField" width="632" height="105"/>
+        <image name="play.rectangle.fill" catalog="system" width="128" height="93"/>
         <image name="signinButton" width="600" height="90"/>
         <image name="usernameTextField" width="632" height="105"/>
     </resources>

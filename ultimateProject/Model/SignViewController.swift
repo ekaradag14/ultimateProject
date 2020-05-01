@@ -9,7 +9,7 @@
 import UIKit
 import Firebase
 class SignViewController: UIViewController {
-
+    
     @IBOutlet weak var usernameText: UITextField!
     @IBOutlet weak var mailText: UITextField!
     @IBOutlet weak var passwordText: UITextField!
@@ -18,31 +18,18 @@ class SignViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     @IBAction func signButtonPressed(_ sender: UIButton) {
         let email = mailText.text!
         let password = passwordText.text!
-         Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
-                    
-                    if let e = error {
-                        print(e)
-                    } else {
-                        self.performSegue(withIdentifier: K.registerSegue, sender: self)
-                    }
-                    
-                }
+        Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
+            if let e = error {
+                print(e)
+            } else {
+                self.performSegue(withIdentifier: K.registerSegue, sender: self)
+            }
+            
+        }
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+   
 }
