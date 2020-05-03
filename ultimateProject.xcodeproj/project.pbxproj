@@ -19,6 +19,8 @@
 		2C34BD63245C1BC800864145 /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C34BD62245C1BC800864145 /* SignViewController.swift */; };
 		2C34BD67245C2A1F00864145 /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C34BD66245C2A1F00864145 /* SpeechService.swift */; };
 		2C34BD69245C2C0200864145 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C34BD68245C2C0200864145 /* LoginViewController.swift */; };
+		2C63DF4E245EAB60008DB0CF /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C63DF4D245EAB60008DB0CF /* PhotosViewController.swift */; };
+		2C63DF50245EBF5F008DB0CF /* UnsplashElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C63DF4F245EBF5F008DB0CF /* UnsplashElement.swift */; };
 		AB567F52BAC05F86F574032E /* Pods_ultimateProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644A7432D501DDD037AF7AF4 /* Pods_ultimateProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +39,8 @@
 		2C34BD62245C1BC800864145 /* SignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
 		2C34BD66245C2A1F00864145 /* SpeechService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
 		2C34BD68245C2C0200864145 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2C63DF4D245EAB60008DB0CF /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		2C63DF4F245EBF5F008DB0CF /* UnsplashElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashElement.swift; sourceTree = "<group>"; };
 		644A7432D501DDD037AF7AF4 /* Pods_ultimateProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ultimateProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BE24E21D1095DDF59DECE6B /* Pods-ultimateProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ultimateProject.release.xcconfig"; path = "Target Support Files/Pods-ultimateProject/Pods-ultimateProject.release.xcconfig"; sourceTree = "<group>"; };
 		7FBF3EF0CD53070C90917702 /* Pods-ultimateProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ultimateProject.debug.xcconfig"; path = "Target Support Files/Pods-ultimateProject/Pods-ultimateProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -97,6 +101,7 @@
 				2C34BD5A245BFD6500864145 /* TextToSpeechViewController.swift */,
 				2C34BD62245C1BC800864145 /* SignViewController.swift */,
 				2C34BD68245C2C0200864145 /* LoginViewController.swift */,
+				2C63DF4D245EAB60008DB0CF /* PhotosViewController.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 		2C15AE20245AB4C700C03C2B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2C63DF4F245EBF5F008DB0CF /* UnsplashElement.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -252,8 +258,10 @@
 				2C34BD63245C1BC800864145 /* SignViewController.swift in Sources */,
 				2C34BD5B245BFD6500864145 /* TextToSpeechViewController.swift in Sources */,
 				2C15AE0F245AB0BD00C03C2B /* ViewController.swift in Sources */,
+				2C63DF4E245EAB60008DB0CF /* PhotosViewController.swift in Sources */,
 				2C15AE0B245AB0BD00C03C2B /* AppDelegate.swift in Sources */,
 				2C34BD69245C2C0200864145 /* LoginViewController.swift in Sources */,
+				2C63DF50245EBF5F008DB0CF /* UnsplashElement.swift in Sources */,
 				2C34BD67245C2A1F00864145 /* SpeechService.swift in Sources */,
 				2C15AE0D245AB0BD00C03C2B /* SceneDelegate.swift in Sources */,
 				2C34BD5F245C124F00864145 /* Constants.swift in Sources */,

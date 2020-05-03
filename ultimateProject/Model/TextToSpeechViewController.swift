@@ -22,6 +22,7 @@ class TextToSpeechViewController: UIViewController  {
     
     @IBAction func playButtonPressed(_ sender: UIButton) {
         if let text = textToBeSpeaked.text {
+            
             SpeechService.shared.speak(text: text ) {
                 // Finished speaking
             }
