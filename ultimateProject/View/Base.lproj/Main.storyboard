@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -11,7 +12,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" userLabel="Welcome View Controller" customClass="ViewController" customModule="ultimateProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="mKZ-z7-zIK">
@@ -19,7 +20,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TFQ-Xp-sSB">
-                                <rect key="frame" x="35" y="702" width="531" height="90"/>
+                                <rect key="frame" x="35" y="746" width="345" height="51"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="51" id="6ES-D8-7kI"/>
                                     <constraint firstAttribute="width" constant="345" id="uhz-jm-Dq9"/>
@@ -53,7 +54,7 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="1Zn-zU-url" userLabel="Enter View Controller" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aiT-ZR-PFz">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="4ms-xb-9WA">
@@ -61,7 +62,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" alpha="0.65000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AVR-uZ-y0G" userLabel="loginWithFacebook">
-                                <rect key="frame" x="69" y="711" width="277" height="90"/>
+                                <rect key="frame" x="69" y="755" width="277" height="42"/>
                                 <accessibility key="accessibilityConfiguration" identifier="loginWithFacebook"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="aYN-RC-S5K"/>
@@ -70,7 +71,7 @@
                                 <state key="normal" image="loginWithFacebook"/>
                             </button>
                             <button opaque="NO" alpha="0.65000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FC1-Li-tBA" userLabel="loginWithFacebook">
-                                <rect key="frame" x="69" y="649" width="277" height="42"/>
+                                <rect key="frame" x="69" y="693" width="277" height="42"/>
                                 <accessibility key="accessibilityConfiguration" identifier="loginWithFacebook"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="277" id="gEM-c8-cl0"/>
@@ -82,7 +83,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.65000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vyl-lp-jP4" userLabel="loginWithFacebook">
-                                <rect key="frame" x="69" y="586" width="277" height="42"/>
+                                <rect key="frame" x="69" y="630" width="277" height="42"/>
                                 <accessibility key="accessibilityConfiguration" identifier="loginWithFacebook"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="9hz-NB-Ubi"/>
@@ -121,7 +122,7 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="tNw-a7-44j" userLabel="Login View Controller" customClass="LoginViewController" customModule="ultimateProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nOp-X3-pJt">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="backgroundDark" translatesAutoresizingMaskIntoConstraints="NO" id="OsX-Qf-LsO">
@@ -129,7 +130,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" alpha="0.64999997615814209" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nTO-SR-ZR9" userLabel="loginWithFacebook">
-                                <rect key="frame" x="69" y="360.5" width="277" height="42"/>
+                                <rect key="frame" x="69" y="412" width="277" height="42"/>
                                 <accessibility key="accessibilityConfiguration" identifier="loginWithFacebook"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="277" id="3qX-Gh-Igd"/>
@@ -141,13 +142,13 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="usernameTextField" translatesAutoresizingMaskIntoConstraints="NO" id="TVs-Eu-35f">
-                                <rect key="frame" x="47" y="109.5" width="311" height="105"/>
+                                <rect key="frame" x="47" y="161" width="311" height="105"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="passwordTextField" translatesAutoresizingMaskIntoConstraints="NO" id="raQ-0h-T0c">
-                                <rect key="frame" x="47" y="231.5" width="311" height="105"/>
+                                <rect key="frame" x="47" y="283" width="311" height="105"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="test@test.com" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7cd-Gx-wn3" userLabel="usernameText">
-                                <rect key="frame" x="47" y="156" width="311" height="23"/>
+                                <rect key="frame" x="47" y="200" width="311" height="23"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" systemColor="tertiarySystemBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -155,7 +156,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="testtest" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tnP-Yr-CTr" userLabel="passwordText">
-                                <rect key="frame" x="47" y="268.5" width="311" height="34"/>
+                                <rect key="frame" x="47" y="320" width="311" height="34"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" systemColor="tertiarySystemBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -163,7 +164,7 @@
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ooP-up-XMX">
-                                <rect key="frame" x="20" y="1" width="37" height="17.5"/>
+                                <rect key="frame" x="20" y="45" width="37" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="37" id="dAi-Cg-FKH"/>
                                     <constraint firstAttribute="height" constant="27.5" id="rNd-Lz-GiW"/>
@@ -221,7 +222,7 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="wYY-oQ-KYn" userLabel="Text-to-Speech View Controller" customClass="TextToSpeechViewController" customModule="ultimateProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SK4-o9-6un">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="backgroundDark" translatesAutoresizingMaskIntoConstraints="NO" id="5aR-sz-68L">
@@ -261,7 +262,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.64999997615814209" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fjT-uA-9c9" userLabel="loginWithFacebook">
-                                <rect key="frame" x="69" y="316" width="463" height="90"/>
+                                <rect key="frame" x="69" y="626" width="277" height="42"/>
                                 <accessibility key="accessibilityConfiguration" identifier="loginWithFacebook"/>
                                 <state key="normal" image="continueButton"/>
                                 <connections>
@@ -294,15 +295,11 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="7HJ-gA-cBz" userLabel="Event View Controller" customClass="PhotosViewController" customModule="ultimateProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aUd-sg-dGq">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="backgroundDark" translatesAutoresizingMaskIntoConstraints="NO" id="6p4-yk-IME">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RNV-6G-LbM">
-                                <rect key="frame" x="53" y="148" width="341" height="617"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uDc-7B-4p0">
@@ -314,6 +311,15 @@
                                     <segue destination="wYY-oQ-KYn" kind="show" id="mR9-eh-Glo"/>
                                 </connections>
                             </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="aZf-MO-wUe">
+                                <rect key="frame" x="0.0" y="97" width="414" height="799"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="RNV-6G-LbM">
+                                <rect key="frame" x="0.0" y="375" width="414" height="146"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="9bL-DF-0Vq"/>
@@ -321,6 +327,7 @@
                     <navigationItem key="navigationItem" id="KxB-Mc-fDG"/>
                     <connections>
                         <outlet property="downloadedImage" destination="RNV-6G-LbM" id="7Na-gk-8fb"/>
+                        <outlet property="photoTable" destination="aZf-MO-wUe" id="TMn-gH-rch"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RGb-yY-ObS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -331,8 +338,8 @@
         <scene sceneID="R7j-5p-zte">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="Q5A-za-fkI" userLabel="Sign In View Controller" customClass="SignViewController" customModule="ultimateProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="j0o-7c-Y9F">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <view key="view" contentMode="scaleToFill" id="j0o-7c-Y9F">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="backgroundDark" translatesAutoresizingMaskIntoConstraints="NO" id="BsB-hG-XSz">
@@ -385,7 +392,7 @@
                                     <segue destination="1Zn-zU-url" kind="show" id="PvT-1H-D4D"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" alpha="0.64999997615814209" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fsr-I5-PWf" userLabel="loginWithFacebook">
+                            <button opaque="NO" alpha="0.64999997615814209" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fsr-I5-PWf" userLabel="loginWithFacebook">
                                 <rect key="frame" x="62" y="427" width="277" height="42"/>
                                 <accessibility key="accessibilityConfiguration" identifier="loginWithFacebook"/>
                                 <constraints>
